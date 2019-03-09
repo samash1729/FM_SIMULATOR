@@ -1,2 +1,2 @@
 # FM_SIMULATOR
-The following code simulates a FM machine. Using the knob which is a potentiometer one can increase frequency , when one reaches close to a working station the PWM pin glows faster. For the potentiometer we are using an ADC to convert analog values to digital and for the LED to glow faster we are using an inbuilt PWM module in LPC1728.
+The following code simulates a FM machine. Using the knob which is a potentiometer one can increase or decrease frequency , when one reaches close to a working station the LED pin's glowing rate increases.For the potentiometer we are using an inbuilt ADC to convert analog values to digital and for the LED to glow faster we are using an inbuilt PWM module in LPC1728. The current frequency is displayed in a LCD.
